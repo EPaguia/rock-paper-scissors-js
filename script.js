@@ -24,9 +24,5 @@ function play(playerChoice = prompt('Rock, Paper or Scissors?'), computerChoice 
 }
 }
 
-for (let i=0; i<5; i++) {
-    console.log(play())
-}
-
 
 

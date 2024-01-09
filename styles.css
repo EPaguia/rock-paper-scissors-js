@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.container div {
+    width:300px;
+    border:solid;
+    height:200px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    height:50px;
+    width: 100px;
+    border-radius: 10%;
+}
