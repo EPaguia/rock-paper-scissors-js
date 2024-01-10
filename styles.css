@@ -1,14 +1,25 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    align-items: space-around;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.headers{
+    display: flex;
     justify-content: space-around;
 }
+
+.headers div {
+    width: 300px
+}
+
 
 .container {
     display:flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 
@@ -21,6 +32,7 @@ body {
 .options {
     display: flex;
     justify-content: space-around;
+    gap: 5px
 }
 
 button {
