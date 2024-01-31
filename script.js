@@ -77,5 +77,3 @@ paper.addEventListener('click', () => {
 scissors.addEventListener('click', () => {
     game('scissors');
     })
-
-console.log('pwet')
