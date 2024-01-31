@@ -78,3 +78,4 @@ scissors.addEventListener('click', () => {
     game('scissors');
     })
 
+console.log('pwet')
